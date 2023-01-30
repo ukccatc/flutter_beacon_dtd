@@ -51,7 +51,7 @@ class _TabScanningState extends State<TabScanning> {
       ),
       Region(
         identifier: 'BeaconType2',
-        proximityUUID: '6a84c716-0f2a-1ce9-f210-6a63bd873dd9',
+        proximityUUID: '30A17A4E-40DC-4EF5-8856-52E968E7E343',
       ),
     ];
 

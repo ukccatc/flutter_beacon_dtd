@@ -47,7 +47,12 @@ class FlutterPlatform {
         Manifest.permission.ACCESS_COARSE_LOCATION,
         Manifest.permission.ACCESS_FINE_LOCATION,
         Manifest.permission.BLUETOOTH_SCAN,
-        Manifest.permission.BLUETOOTH_CONNECT,}, 2);
+        Manifest.permission.BLUETOOTH_CONNECT,
+        Manifest.permission.ACCESS_BACKGROUND_LOCATION,
+        Manifest.permission.FOREGROUND_SERVICE,
+        Manifest.permission.WAKE_LOCK,
+        Manifest.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      }, 2);
       return;
     }else{
       ActivityCompat.requestPermissions(getActivity(), new String[]{
